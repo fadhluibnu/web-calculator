@@ -1,0 +1,15 @@
+
+
+objek calculator dengan properti diplayNumber, operator, firstNumber, dan waitingForSecondNjmber digunakan untuk tempat penyimpanan data dan kondisi pada kalkulator.
+
+untuk function updateDisplay digunakan untuk mengupdate angka pada layar kalkulator. Jadi saat kita klik angka otomatis layar dari kalkukalot akan terganti dengan angka yang baru
+
+function clearClaculator digunakan untuk mengapus angka yang ada di layar atau mengembalikan isi objek calculator menjadi semula.
+
+function inputDigit digunakan untuk menghilangkan angka 0 saat kita baru pertama kali mamasukkan angka. Jadi jika properti displayNumber sama dengan 0 maka displayNumber akan ditimpa dengan parameter digit.
+
+function inverseNumber digunakan untuk membalik angka negatif jadi positif. Jadi, jika displayNumber = 0 program tidak akan melakuakan apapun kecuali displayNumber != 0 maka, displayNumber akan dikalikan -1.
+
+function hendleOperator digunakan untuk menyimpan operator dari inerText tombol operator dan firstNumber = displayNumber, dan berjalan jika saat properti waitungForSecondNumber bernilai false, jika waitungForSecondNumber bernilai true akan  alert() dengan pesan “Operator sudah ditetapkan”
+
+function performCalculation digunakan melakukan kalkulasi terhadap nilai - nilai yang terdapat pada objek calculator. Fungsi diawali dengan pengecekan nilai. Jika terpenuhi, Fungsi ini akan mengubah nilai string menjadi number dengan parseInt()
